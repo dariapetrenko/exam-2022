@@ -14,13 +14,13 @@ int main()
     int exp;
     cin >> exp;
 
-    if (base < 1)
+    if (base < 1)   /*введене число не задовільняє умови задачі*/
     {
-        cout << "try again ";
+        cout << "try again "; 
         return 0;
     }
 
-    if (exp < 1)
+    if (exp < 1)    /*введене число не задовільняє умови задачі*/
     {
         cout << "try again ";
         return 0;
